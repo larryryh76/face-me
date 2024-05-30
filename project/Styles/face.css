@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/project/download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+   
+}
+.top-bar {
+    width: 1500px;
+    height: 75px;
+    margin: auto;
+    
+}
+.my-logo {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.logoinnit {
+    font-size: 55px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-left: 150px;
+    margin-top: 10px;
+    border: 1px solid orange;
+}
+ul li {
+    list-style: none;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 400px;
+}
+
+.spn {
+    color: orange;
+}
+    
+.content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: -250px;
+    top: 100px;
+    border: 1px solid orange;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+.content .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1 {
+
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+
+.content .btnn {
+   
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: orange;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .btnn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.btnn:hover {
+    background:rgb(255, 192, 75);
+}
+.btnn:active {
+    background: rgb(180, 118, 3);
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -20px;
+    left: 1150px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btn1n{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btn1n:hover{
+    background: white;
+    color: orange;
+}
+.btn1n a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
